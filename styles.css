@@ -1,0 +1,18 @@
+.nav-bar {
+    display: flex;
+    font-family: 'Concert One', cursive;
+    background-color: #808080;
+    font-size: 1.5em;
+    justify-content: center;
+    color: white;
+}
+
+.nav-bar > ul {
+    list-style: none;
+}
+
+.nav-bar > ul > li {
+    float: left;
+    padding: 0 2em;
+    background: #696969;
+}
