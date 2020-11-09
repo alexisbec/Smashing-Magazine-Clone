@@ -1,18 +1,45 @@
+/* ------------------- Navbar --------------------- */
+
 .nav-bar {
     display: flex;
     font-family: 'Concert One', cursive;
     background-color: #808080;
     font-size: 1.5em;
-    justify-content: center;
+    width: 100%;
     color: white;
+    justify-content: space-around;
 }
 
 .nav-bar > ul {
     list-style: none;
+    display: flex;
+    
 }
 
 .nav-bar > ul > li {
+    display: flex;
     float: left;
-    padding: 0 2em;
+    margin: 5px;
+    padding: 0.5em 0.5em;
     background: #696969;
+    align-items: center;
+}
+
+.search-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.logo {
+    height: 50px;
+    align-self: center;
+}
+
+.nav-bar li p {
+    display: flex;
+}
+
+.img-cat {
+    height: 25px;
+    width: 25px;
 }
