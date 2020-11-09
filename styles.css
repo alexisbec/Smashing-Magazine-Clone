@@ -1,45 +1,142 @@
 /* ------------------- Navbar --------------------- */
 
+body {
+  font-family: 'Concert One', cursive;
+  color: white;
+  background: #808080;
+}
+
 .nav-bar {
-    display: flex;
-    font-family: 'Concert One', cursive;
-    background-color: #808080;
-    font-size: 1.5em;
-    width: 100%;
-    color: white;
-    justify-content: space-around;
+  display: flex;
+  background-color: #808080;
+  font-size: 1.5em;
+  width: 100%;
 }
 
 .nav-bar > ul {
-    list-style: none;
-    display: flex;
-    
+  list-style: none;
+  display: flex;
 }
 
 .nav-bar > ul > li {
-    display: flex;
-    float: left;
-    margin: 5px;
-    padding: 0.5em 0.5em;
-    background: #696969;
-    align-items: center;
+  display: flex;
+  float: left;
+  margin: 5px;
+  padding: 0 2.5em;
+  background: #696969;
+ align-items: center;
+}
+
+.search-bar {
+  width: 150px;
 }
 
 .search-icon {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 
 .logo {
-    height: 50px;
-    align-self: center;
+  height: 50px;
+  align-content: center;
 }
 
-.nav-bar li p {
-    display: flex;
+.nav-bar > ul > li > p {
+  display: flex;
 }
 
 .img-cat {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+.latest-articles {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, 600px);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.art1 {
+  background: #696969;
+  font-size: 2.5em;
+  padding: 1.5em;
+}
+
+.art2 {
+  background: #333;
+  font-size: 2.5em;
+  padding: 1.5em;
+}
+
+.latest {
+    margin: 2em auto;
+}
+
+.another-articles {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 500px;
+  font-size: 1.3em;
+}
+
+.art3 {
+  background: rgb(139, 139, 139);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.art4 {
+  background: rgba(128, 128, 128, 0.726);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.smash-articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 500px);
+}
+
+.members1 {
+  background: #333;
+  grid-column: 1 / span 2;
+  font-size: 3em;
+}
+
+.art5 {
+  background: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  font-size: 1.3em;
+}
+
+.art6 {
+  background: #767676;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  font-size: 1.3em;
+}
+
+.members2 {
+  background: #333;
+  grid-column: 3 / span 2;
+  font-size: 3em;
 }
