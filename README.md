@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Smashing-Magazine-Clone
 
-> This is our fith project in microverse the smashing magazine clone
+> This is our fifth project in microverse the smashing magazine clone
 
 ![screenshot](img/Capture.PNG)
 
@@ -12,12 +12,13 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ahzia.github.io/HTML-Signup-Form/)
+[Live Demo Link](https://alexisbec.github.io/Smashing-Magazine-Clone/)
 
 ## Getting Started
 
 1. Clone the project 
-  `$ git clone https://github.com/ahzia/HTML-Signup-Form`
+  https://github.com/alexisbec/Smashing-Magazine-Clone.git
+
 2. Then open index.html in your browser
 
 To get a local copy up and running follow these simple example steps.
@@ -50,5 +51,6 @@ Feel free to check the [issues page](https://github.com/ahzia/HTML-Signup-Form/i
 
 Give a ⭐️ if you like this project!
 
+## 📝 License
 
-
+This project is [MIT]() licensed.
