@@ -53,4 +53,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/alexisbec/Smashing-Magazine-Clone/blob/development/MIT%20License.txt) licensed.
