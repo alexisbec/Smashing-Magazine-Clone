@@ -271,6 +271,7 @@ body {
   background-color: #6b6b6b;
   padding: 2em;
   margin: 1em 3em;
+  line-height: 2em;
 }
 
 .little-img {
@@ -293,4 +294,55 @@ body {
   padding: 1em 2em;
   margin: 2em;
   border-radius: 3px;
+}
+
+.more-links > a:hover {
+  background-color: #646464;
+  cursor: pointer;
+}
+
+.design {
+  background-color: #666;
+  margin: 6em 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+}
+
+.left-side {
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side > p:first-child {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.left-side > h2 {
+  font-size: 3em;
+  margin-bottom: .5em;
+  font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+.left-side > p {
+  font-size: 1.4em;
+  margin-bottom: 2.5em;
+}
+
+.left-side > button {
+  border: none;
+  width: 25%;
+  height: 3em;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+
+.right-side {
+  background-color: rgb(95, 95, 95);
+  margin: 30px 50px;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+  transform: rotate(-80deg);
 }
