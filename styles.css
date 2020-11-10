@@ -81,10 +81,6 @@ body {
   padding: 1.5em;
 }
 
-.latest {
-    margin: 2em auto;
-}
-
 .another-articles {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -162,7 +158,6 @@ body {
   font-size: 45px;
   text-align: center;
   width: 220px;
-  margin-top: -50px;
 }
 
 .art-header-container {
@@ -171,12 +166,36 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -1200px;
+  margin-top: -1100px;
   margin-bottom: 1010px;
 }
 
 .input {
-  height: 50px;
+  height: 35px;
   border-radius: 5px;
   border: none;
+}
+
+/* ------------------ Transition ------------------- */
+
+.self-section div {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  justify-content: center;
+}
+
+.self-section > div > p,
+.self-section div h1,
+.self-section div h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.self-section button {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 25%;
+  font-size: large;
 }
