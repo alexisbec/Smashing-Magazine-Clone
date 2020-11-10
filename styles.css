@@ -9,6 +9,45 @@ body {
   background: #808080;
 }
 
+.self-section h1 {
+  font-size: 50px;
+}
+
+.left-side > p {
+  font-size: 1.4em;
+  margin-bottom: 2.5em;
+}
+
+.left-side > h2 {
+  font-size: 3em;
+  margin-bottom: 1.5em;
+  font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+.bottom-art-elmt h2 {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.text-elmt p {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.self-section > div > p,
+.self-section div h1,
+.self-section div h3 {
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.footer-links li {
+  margin: 25px;
+  text-align: center;
+}
+
 .nav-bar {
   font-family: 'Fredoka One', cursive, sans-serif;
   display: flex;
@@ -191,16 +230,6 @@ body {
   justify-content: center;
 }
 
-.self-section > div > p,
-.self-section div h1,
-.self-section div h3 {
-  text-align: center;
-  margin: 20px;
-  font-weight: bold;
-  font-family: sans-serif;
-  font-weight: 700;
-}
-
 .self-section button {
   padding: 15px;
   border-radius: 5px;
@@ -210,10 +239,6 @@ body {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.self-section h1 {
-  font-size: 50px;
 }
 
 .self-section .img {
@@ -283,6 +308,18 @@ body {
   align-self: center;
 }
 
+.footer-list a {
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  color: white;
+}
+
 .more-links {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 600;
@@ -309,26 +346,9 @@ body {
   display: flex;
 }
 
-.left-side {
-  padding: 5em;
-  display: flex;
-  flex-direction: column;
-}
-
 .left-side > p:first-child {
   font-size: 1.2em;
   margin-bottom: 1em;
-}
-
-.left-side > h2 {
-  font-size: 3em;
-  margin-bottom: .5em;
-  font-family: 'Fredoka One', cursive, sans-serif;
-}
-
-.left-side > p {
-  font-size: 1.4em;
-  margin-bottom: 2.5em;
 }
 
 .left-side > button {
@@ -376,13 +396,8 @@ body {
   margin: 20px;
 }
 
-.bottom-art-elmt h2 {
-  font-size: 40px;
-  margin: 20px;
-}
-
 .bottom-art-elmt .content {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
   margin: 20px;
 }
 
@@ -407,13 +422,8 @@ body {
 
 .bottom-art-elmt1 .img-elmt {
   height: 300px;
-  margin: 0px;
+  margin: 0.1px;
   background-color: rgb(102, 96, 96);
-}
-
-.text-elmt p {
-  text-align: center;
-  padding-top: 40px;
 }
 
 /* ----------------- Footer ---------------- */
@@ -425,11 +435,6 @@ body {
 
 .footer .header {
   text-align: center;
-}
-
-.footer-list {
-  list-style: none;
-  
 }
 
 .cat img {
@@ -444,23 +449,6 @@ body {
   width: 160px;
   margin-top: -140px;
   right: 50px;
-}
-
-.footer-list a {
-  font-size: 24px;
-  color: white;
-  margin: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.footer-links a {
-  text-decoration: underline;
-  color: white;
-}
-
-.footer-links li {
-  margin: 25px;
-  text-align: center;
 }
 
 .footer-list {
