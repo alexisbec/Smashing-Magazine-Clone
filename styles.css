@@ -24,7 +24,12 @@ body {
   margin: 5px;
   padding: 0 1em;
   background: #696969;
- align-items: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.nav-bar > ul > li:hover {
+  background: #333;
 }
 
 .search-bar {
@@ -32,6 +37,7 @@ body {
 }
 
 .search-icon {
+  margin-left: -160px;
   height: 25px;
   width: 25px;
 }
@@ -167,4 +173,10 @@ body {
   align-items: center;
   margin-top: -1200px;
   margin-bottom: 1010px;
+}
+
+.input {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
 }
