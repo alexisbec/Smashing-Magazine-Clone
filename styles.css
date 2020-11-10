@@ -415,3 +415,60 @@ body {
   text-align: center;
   padding-top: 40px;
 }
+
+/* ----------------- Footer ---------------- */
+
+.footer {
+  background-color: #333;
+  padding: 50px 80px;
+}
+
+.footer .header {
+  text-align: center;
+}
+
+.footer-list {
+  list-style: none;
+  
+}
+
+/* .cat {
+  position: absolute;
+  width: 185px;
+  bottom: 50px;
+  right: 50px;
+}
+
+.laptop {
+  position: absolute;
+  width: 160px;
+  bottom: 50px;
+  left: 50px;
+} */
+
+.footer-list a {
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links a {
+  margin-right: 15px;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 90%;
+  margin: 70px;
+}
+
+.footer-links {
+  margin-left: auto;
+  margin-right: auto;
+}
