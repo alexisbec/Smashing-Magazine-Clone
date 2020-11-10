@@ -22,7 +22,7 @@ body {
   display: flex;
   float: left;
   margin: 5px;
-  padding: 0 2.5em;
+  padding: 0 1em;
   background: #696969;
  align-items: center;
 }
@@ -52,6 +52,7 @@ body {
 
 .latest-articles {
   display: grid;
+  z-index: 1;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, 600px);
 }
@@ -139,4 +140,31 @@ body {
   background: #333;
   grid-column: 3 / span 2;
   font-size: 3em;
+}
+
+.text-header {
+  background-color: white;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  width: 500px;
+}
+
+.text-header-1 {
+  background-color: white;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  width: 220px;
+  margin-top: -50px;
+}
+
+.art-header-container {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1200px;
+  margin-bottom: 1010px;
 }
