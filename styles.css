@@ -190,6 +190,8 @@ body {
 .self-section div h3 {
   text-align: center;
   margin: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 .self-section button {
@@ -198,4 +200,28 @@ body {
   border: none;
   width: 25%;
   font-size: large;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.self-section h1 {
+  font-size: 50px;
+}
+
+.self-section .img {
+  height: 400px;
+  margin: 30px auto;
+  width: 700px;
+  border-radius: 5px;
+  background-color: rgb(56, 56, 55);
+}
+
+.self-section .img h2 {
+  text-align: center;
+  align-self: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
 }
