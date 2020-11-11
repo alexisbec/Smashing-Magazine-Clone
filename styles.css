@@ -1,5 +1,5 @@
 * {
-  font-family: 'Fredoka One', cursive, sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 /* ------------------- Navbar --------------------- */
@@ -141,6 +141,12 @@ body {
   padding: 3em;
 }
 
+.art3 > p,
+.art4 > p {
+  margin-top: 1em;
+  font-family: 'Lora', serif;
+}
+
 .art4 {
   background: rgba(128, 128, 128, 0.726);
   display: flex;
@@ -180,6 +186,12 @@ body {
   flex-direction: column;
   padding: 3em;
   font-size: 1.3em;
+}
+
+.art5 > p,
+.art6 > p {
+  margin-top: 1em;
+  font-family: 'Lora', serif;
 }
 
 .members2 {
@@ -258,6 +270,10 @@ body {
   border-radius: 5px;
 }
 
+.self-section > div > h3 {
+  font-family: 'Lora', serif;
+}
+
 .director {
   display: flex;
   background-color: #646464;
@@ -283,6 +299,10 @@ body {
   height: 200px;
 }
 
+.director {
+  font-family: 'Lora', serif;
+}
+
 .another-articles-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -297,6 +317,7 @@ body {
   padding: 2em;
   margin: 1em 3em;
   line-height: 2em;
+  font-family: 'Lora', serif;
 }
 
 .little-img {
@@ -397,7 +418,7 @@ body {
 }
 
 .bottom-art-elmt .content {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Lora', serif;
   margin: 20px;
 }
 
@@ -469,8 +490,26 @@ body {
   margin-right: auto;
 }
 
+.footer-list > li > a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
 .footer-text {
   width: 400px;
   margin: 20px auto;
   text-align: center;
+}
+
+.footer-text > p {
+  font-family: 'Lora', serif;
+}
+
+.footer-text > p:first-child {
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.footer-text > p > a {
+  color: white;
 }
