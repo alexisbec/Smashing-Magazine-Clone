@@ -1,0 +1,515 @@
+* {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* ------------------- Navbar --------------------- */
+
+body {
+  color: white;
+  background: #808080;
+}
+
+.self-section h1 {
+  font-size: 50px;
+}
+
+.left-side > p {
+  font-size: 1.4em;
+  margin-bottom: 2.5em;
+}
+
+.left-side > h2 {
+  font-size: 3em;
+  margin-bottom: 1.5em;
+  font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+.bottom-art-elmt h2 {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.text-elmt p {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.self-section > div > p,
+.self-section div h1,
+.self-section div h3 {
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.footer-links li {
+  margin: 25px;
+  text-align: center;
+}
+
+.nav-bar {
+  font-family: 'Fredoka One', cursive, sans-serif;
+  display: flex;
+  background-color: #808080;
+  font-size: 1.5em;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-bar > ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-bar > ul > li {
+  display: flex;
+  float: left;
+  margin: 5px;
+  padding: 0 1em;
+  background: #696969;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.nav-bar > ul > li:hover {
+  background: #333;
+}
+
+.search-bar {
+  width: 150px;
+}
+
+.search-icon {
+  margin-left: -160px;
+  height: 25px;
+  width: 25px;
+}
+
+.logo {
+  height: 50px;
+  align-content: center;
+}
+
+.nav-bar > ul > li > p {
+  display: flex;
+}
+
+.img-cat {
+  height: 25px;
+  width: 25px;
+}
+
+.latest-articles {
+  display: grid;
+  z-index: 1;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, 600px);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.art1 {
+  background: #696969;
+  font-size: 2.5em;
+  padding: 1.5em;
+}
+
+.art2 {
+  background: #333;
+  font-size: 2.5em;
+  padding: 1.5em;
+}
+
+.another-articles {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 500px;
+  font-size: 1.3em;
+}
+
+.art3 {
+  background: rgb(139, 139, 139);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.art3 > p,
+.art4 > p {
+  margin-top: 1em;
+  font-family: 'Lora', serif;
+}
+
+.art4 {
+  background: rgba(128, 128, 128, 0.726);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.smash-articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 500px);
+}
+
+.members1 {
+  background: #333;
+  grid-column: 1 / span 2;
+  font-size: 3em;
+}
+
+.art5 {
+  background: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  font-size: 1.3em;
+}
+
+.art6 {
+  background: #767676;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  font-size: 1.3em;
+}
+
+.art5 > p,
+.art6 > p {
+  margin-top: 1em;
+  font-family: 'Lora', serif;
+}
+
+.members2 {
+  background: #333;
+  grid-column: 3 / span 2;
+  font-size: 3em;
+}
+
+.text-header {
+  background-color: white;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  width: 500px;
+}
+
+.text-header-1 {
+  background-color: white;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  width: 220px;
+}
+
+.art-header-container {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1100px;
+  margin-bottom: 1010px;
+}
+
+.input {
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* ------------------ Transition ------------------- */
+
+.self-section div {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  justify-content: center;
+}
+
+.self-section button {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 25%;
+  font-size: large;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.self-section .img {
+  height: 400px;
+  margin: 30px auto;
+  width: 700px;
+  border-radius: 5px;
+  background-color: rgb(56, 56, 55);
+}
+
+.self-section .img h2 {
+  text-align: center;
+  align-self: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.self-section > div > h3 {
+  font-family: 'Lora', serif;
+}
+
+.director {
+  display: flex;
+  background-color: #646464;
+  margin: 1em 6em;
+  padding: 2em 2em 0 2em;
+  align-self: center;
+  font-size: large;
+  line-height: 2em;
+}
+
+.back {
+  background-color: rgb(95, 95, 95);
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  transform: rotate(-20deg);
+  transform-origin: left bottom;
+  margin: 20px 50px;
+}
+
+.big-img {
+  width: 500px;
+  height: 200px;
+}
+
+.director {
+  font-family: 'Lora', serif;
+}
+
+.another-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 300px);
+  margin: 2em 3em;
+}
+
+.art7 {
+  display: flex;
+  flex-direction: row;
+  background-color: #6b6b6b;
+  padding: 2em;
+  margin: 1em 3em;
+  line-height: 2em;
+  font-family: 'Lora', serif;
+}
+
+.little-img {
+  width: 250px;
+  height: 100px;
+}
+
+.text {
+  align-self: center;
+}
+
+.footer-list a {
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  color: white;
+}
+
+.more-links {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more-links > a {
+  background-color: #333;
+  padding: 1em 2em;
+  margin: 2em;
+  border-radius: 3px;
+}
+
+.more-links > a:hover {
+  background-color: #646464;
+  cursor: pointer;
+}
+
+.design {
+  background-color: #666;
+  margin: 6em 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+}
+
+.left-side > p:first-child {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.left-side > button {
+  border: none;
+  width: 25%;
+  height: 3em;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+
+.right-side {
+  background-color: rgb(95, 95, 95);
+  margin: 30px 50px;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+  transform: rotate(-80deg);
+}
+
+/* ------------ Footer Articles ------------- */
+
+.bottom-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 530px);
+}
+
+.guides {
+  padding: 40px;
+}
+
+.bottom-art-elmt {
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(238, 234, 234, 1);
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-art-elmt .intro {
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+
+.bottom-art-elmt .content {
+  font-family: 'Lora', serif;
+  margin: 20px;
+}
+
+.bottom-art-elmt button {
+  width: 70%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.bottom-art-elmt1 {
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(238, 234, 234, 1);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-art-elmt1 .img-elmt {
+  height: 300px;
+  margin: 0.1px;
+  background-color: rgb(102, 96, 96);
+}
+
+/* ----------------- Footer ---------------- */
+
+.footer {
+  background-color: #333;
+  padding: 50px 80px;
+}
+
+.footer .header {
+  text-align: center;
+}
+
+.cat img {
+  position: absolute;
+  width: 185px;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.laptop img {
+  position: absolute;
+  width: 160px;
+  margin-top: -140px;
+  right: 50px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 90%;
+  margin: 70px;
+}
+
+.footer-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
+.footer-text {
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.footer-text > p {
+  font-family: 'Lora', serif;
+}
+
+.footer-text > p:first-child {
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.footer-text > p > a {
+  color: white;
+}
